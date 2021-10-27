@@ -1,0 +1,23 @@
+.propImg{
+    height: 180px;
+    width: 250px;
+}
+
+.card img:hover{
+  transform: scale(1.5,1.5);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+  }
+.card img{
+    transform: scale(1,1);
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.card{
+  margin: 2% 10%;
+  border-radius: 15%;
+  align-items: center;
+  width: 380px;
+  height: 320px;
+}
+
